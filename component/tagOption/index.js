@@ -39,7 +39,7 @@ const TagOption = ({ activeTab, setActiveTab }) => {
         {tabs.map((tab) => {
           return (
             <div
-              onClick={() => setActiveTab(tab.name)}
+            onClick={(()=>setActiveTab(`${tab.name}`))}
               className={`tab-item absolute-center cur-po ${
                 activeTab === tab.name && "active-tab"
               }`}
