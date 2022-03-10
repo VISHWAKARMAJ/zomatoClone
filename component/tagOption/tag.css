@@ -1,0 +1,30 @@
+.tab-option {
+  box-shadow: black 0px -0.5px 0px;
+}
+.options-wrapper {
+  display: flex;
+}
+.tab-item {
+  margin-right: 24px;
+  padding: 12px 12px 12px 12px;
+}
+.tab-name {
+  font-size: 20px;
+  font-weight: 50%;
+  margin-left: 10px;
+  color: #696969;
+}
+.tab-image-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #fafafa;
+  /* color: red; */
+}
+.tab-image {
+  height: 30px;
+  width: 30px;
+}
+.active-tap {
+  border-bottom: 2px solid red;
+}

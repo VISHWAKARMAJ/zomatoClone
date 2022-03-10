@@ -1,0 +1,11 @@
+@import "./style/commonClasses.css";
+@import "./style/variable.css";
+.App {
+  font-family: "Poppins", sans-serif;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
