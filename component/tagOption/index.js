@@ -34,7 +34,7 @@ const tabs = [
 const TagOption = ({ activeTab, setActiveTab }) => {
   return (
     <div className="tab-option">
-      <button onClick={() => setActiveTab("NigthLight")}> click</button>
+      {/* <button onClick={() => setActiveTab("NigthLight")}> click</button> */}
       <div className="options-wrapper  max-width ">
         {tabs.map((tab) => {
           return (
