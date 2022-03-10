@@ -25,6 +25,9 @@
   height: 30px;
   width: 30px;
 }
-.active-tap {
+.active-tab {
   border-bottom: 2px solid red;
+}
+.active-tab .tab-name {
+  color: red;
 }
