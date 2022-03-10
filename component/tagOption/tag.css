@@ -1,5 +1,5 @@
 .tab-option {
-  box-shadow: black 0px -0.5px 0px;
+  box-shadow: grey 0px -0.5px 0px inset;
 }
 .options-wrapper {
   display: flex;

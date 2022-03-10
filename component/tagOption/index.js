@@ -6,10 +6,10 @@ const tabs = [
     id: 1,
     name: "Delivary",
     active_img:
-      "https://i.pinimg.com/564x/8d/a2/e3/8da2e350dc3a8e7788ff449445e4ce0c.jpg",
+      "https://i.pinimg.com/564x/1b/03/54/1b0354e4bafa55cb2cbbac1027c23e1b.jpg",
     backdrop: "FCEEC0",
     Inactive_img:
-      "https://i.pinimg.com/564x/1b/03/54/1b0354e4bafa55cb2cbbac1027c23e1b.jpg"
+      "https://i.pinimg.com/564x/8d/a2/e3/8da2e350dc3a8e7788ff449445e4ce0c.jpg"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const tabs = [
   }
 ];
 
-const TagOption = ({ activeTab, setActiveTab }) => {
+const TagOption = ({ active, setActive }) => {
   return (
     <div className="tab-option">
       {/* <button onClick={() => setActiveTab("NigthLight")}> click</button> */}
@@ -39,17 +39,15 @@ const TagOption = ({ activeTab, setActiveTab }) => {
         {tabs.map((tab) => {
           return (
             <div
-            onClick={(()=>setActiveTab(`${tab.name}`))}
+              onClick={() => setActive(`${tab.name}`)}
               className={`tab-item absolute-center cur-po ${
-                activeTab === tab.name && "active-tab"
+                active === tab.name && "active-tab"
               }`}
             >
               <div
                 className="tab-image-container absolute-center"
                 style={{
-                  backgroundColor: `${
-                    activeTab === tab.name ? tab.backdrop : ""
-                  }`
+                  backgroundColor: `${active === tab.name ? tab.backdrop : ""}`
                 }}
               >
                 <img
@@ -57,9 +55,7 @@ const TagOption = ({ activeTab, setActiveTab }) => {
                   width="50px"
                   className="tab-image"
                   alt={tab.name}
-                  src={
-                    activeTab === tab.name ? tab.active_img : tab.Inactive_img
-                  }
+                  src={active === tab.name ? tab.active_img : tab.Inactive_img}
                 />
               </div>
               <div className="tab-name">{tab.name}</div>

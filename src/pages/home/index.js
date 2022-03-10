@@ -12,7 +12,7 @@ const HomePage = () => {
     <div>
       <Header />
       <TagOption active={activeTab} setActive={setActiveTab} />
-      {/* {getCorrectScreen(activeTab)} */}
+      {getCorrectScreen(activeTab)}
       {/* <Footer /> */}
     </div>
   );
