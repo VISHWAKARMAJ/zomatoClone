@@ -10,3 +10,9 @@
 .cur-po {
   cursor: pointer;
 }
+.collectin-title {
+  font-size: 14px;
+  color: #1c1c1c;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
