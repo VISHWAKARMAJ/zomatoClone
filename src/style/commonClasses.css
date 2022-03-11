@@ -16,3 +16,8 @@
   margin-bottom: 32px;
   font-weight: 600;
 }
+.slick-next:before,
+.slick-prev:before {
+  color: yellow;
+  background-color: white;
+}
