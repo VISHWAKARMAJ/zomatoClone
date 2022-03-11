@@ -36,7 +36,7 @@ const ExploreCard = ({ restaurent }) => {
         {rating && (
           <div className="res-rating  absolute-center">
             {rating}
-            <i className="fa-regular fa-star absolute-center"></i>
+            <i className="fa-regular fa-star  absolute-center"></i>
           </div>
         )}
       </div>
@@ -55,21 +55,20 @@ const ExploreCard = ({ restaurent }) => {
         )}
         {approxPrice && <div className="res-price">{approxPrice}</div>}
       </div>
-      {
-        (bottomContainer.length = 0 && (
-          <div>
-            <div className="card-separetor"></div>
-            <div className="explore-bottom">
-              <img
-                src={bottomContainer[0]?.image.url}
-                style={{ height: "18px" }}
-                alt={bottomContainer[0]?.text}
-              />
-              <div className="res-bottom-text"> {bottomContainer[0]?.text}</div>
-            </div>
+      {bottomContainer.length > 0 && (
+        <div>
+          <div className="card-separetor"></div>
+
+          <div className="explore-bottom">
+            <img
+              src={bottomContainer[0]?.image?.url}
+              alt={bottomContainer[0]?.text}
+              style={{ height: "18px" }}
+            />
+            <div className="res-bottom-text"> {bottomContainer[0]?.text}</div>
           </div>
-        ))
-      }
+        </div>
+      )}
     </div>
   );
 };

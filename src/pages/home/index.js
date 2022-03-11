@@ -13,21 +13,20 @@ const HomePage = () => {
       <Header />
       <TagOption active={activeTab} setActive={setActiveTab} />
       {getCorrectScreen(activeTab)}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
-
 const getCorrectScreen = (tab) => {
   switch (tab) {
     case "Delivary":
       return <Delivary />;
-    case "Dining Out":
+    case "Dining":
       return <Dining />;
     case "Nightlife":
       return <NigthLight />;
     default:
-      return <NigthLight />;
+      return <Delivary />;
   }
 };
 export default HomePage;

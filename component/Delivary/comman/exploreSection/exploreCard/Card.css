@@ -90,8 +90,8 @@
   padding: 0px 8px;
   font-size: 13px;
   font-weight: 600;
-  color: var(---primary-bg);
-  background-color: var(--tag-green);
+  color: white;
+  background-color: green;
   border-radius: 6px;
   height: 24px;
 }
@@ -130,5 +130,9 @@
 .card-separetor {
   height: 1px;
   margin: 10px 0px 5px;
-  background-color: yellow;
+  background-color: gray;
+}
+.explore-card:hover {
+  background-color: rgb(253, 234, 234);
+  border: 1px solid rgb(248, 242, 242);
 }
