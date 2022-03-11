@@ -8,4 +8,7 @@
   ---inactive-text: #696969;
   /* ---inactive-text:green; */
   --collection-shodow: rgb(0 0 0 /8%) 0px 3px 12px;
+  --tag-red: #d92662;
+  --tag-blue: #256fef;
+  --tag-gren: #267e3e;
 }
