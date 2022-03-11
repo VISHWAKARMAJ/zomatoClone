@@ -5,7 +5,7 @@
   ---zomato-grey: #828282;
   ---zomato-red: #ff7e8b;
   ---gray: rgb(207, 207, 207);
-  /* ---inactive-text:#696969; */
+  ---inactive-text: #696969;
   /* ---inactive-text:green; */
   --collection-shodow: rgb(0 0 0 /8%) 0px 3px 12px;
 }
