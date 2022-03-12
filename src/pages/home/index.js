@@ -26,7 +26,7 @@ const getCorrectScreen = (tab) => {
     case "Nightlife":
       return <NigthLight />;
     default:
-      return <Delivary />;
+      return <NigthLight />;
   }
 };
 export default HomePage;

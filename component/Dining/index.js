@@ -1,5 +1,8 @@
 import React from "react";
+import { diningOut } from "../../src/data/diningOut";
 import Collection from "../Delivary/comman/collection";
+import ExploreSection from "../Delivary/comman/exploreSection";
+import Filter from "../Delivary/comman/filter";
 import "./Dining.css";
 
 const collectionList = [
@@ -90,10 +93,19 @@ const diningFilter = [
   }
 ];
 
+const diningList = diningOut;
+
 const Dining = () => {
   return (
     <div>
-      <Collection List={collectionList} />{" "}
+      <Collection List={collectionList} />
+      <div className="max-width">
+        <Filter filterList={diningFilter} />
+        <ExploreSection
+          List={diningList}
+          collectionname="Dine-out Restaurants in lucknow"
+        />
+      </div>
     </div>
   );
 };
