@@ -1,5 +1,5 @@
 import React from "react";
-import { diningOut } from "../../src/data/diningOut";
+import { diningOut } from "../../data/diningOut";
 import Collection from "../Delivary/comman/collection";
 import ExploreSection from "../Delivary/comman/exploreSection";
 import Filter from "../Delivary/comman/filter";

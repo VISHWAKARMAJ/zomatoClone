@@ -1,5 +1,5 @@
 import React from "react";
-import { restaurent } from "../../src/data/restorent";
+import { restaurent } from "../../data/restorent";
 import ExploreSection from "./comman/exploreSection";
 import Filter from "./comman/filter";
 import DeliveryCollection from "./deliveryCollection";

@@ -1,5 +1,5 @@
 import React from "react";
-import { nightLife } from "../../src/data/nightLight";
+import { nightLife } from "../../data/nightLight";
 import Collection from "../Delivary/comman/collection";
 import ExploreSection from "../Delivary/comman/exploreSection";
 import Filter from "../Delivary/comman/filter";
