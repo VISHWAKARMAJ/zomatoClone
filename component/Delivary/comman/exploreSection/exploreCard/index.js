@@ -1,4 +1,3 @@
-import { restaurent } from "../../../../../src/data/restorent";
 import "./Card.css";
 
 const ExploreCard = ({ restaurent }) => {

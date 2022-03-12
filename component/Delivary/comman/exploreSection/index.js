@@ -1,4 +1,3 @@
-import { restaurent } from "../../../../src/data/restorent";
 import "./explore.css";
 import ExploreCard from "./exploreCard";
 
